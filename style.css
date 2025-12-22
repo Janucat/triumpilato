@@ -6,6 +6,7 @@
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -18,7 +19,8 @@ h1 {
 }
 
 .text p,
-.text hr {
+.text hr,
+.text div {
     font-family: Arial, Helvetica, sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -28,6 +30,14 @@ h1 {
     text-align: justify;
     margin: 0 auto;
     line-height: 1.5;
+}
+
+.text .supertitle {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 .text .title {
@@ -45,6 +55,16 @@ h1 {
     font-weight: bold;
 }
 
+.text .indice div div {
+    text-indent: 40px;
+} 
+
+.text .indice div div div {
+    text-indent: 80px;
+} 
+
+
 #recensioni p {
     text-align: center;
 }
+
