@@ -29,7 +29,8 @@ color: #1d1f20;
     
 }
 
-a:visited {
+a:visited,
+a {
     color: rgb(0, 102, 255); 
 }
 
