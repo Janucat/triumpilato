@@ -100,3 +100,20 @@ h1 {
     text-align: center;
 }
 
+/* BACKTOTOP BUTTON */
+
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: none;
+  border: none;
+  z-index: 1000;
+  background-color: transparent;
+}
+
+#backToTop img {
+    width: 2em;
+}
