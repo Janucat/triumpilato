@@ -29,15 +29,16 @@ color: #1d1f20;
     
 }
 
-a:visited,
-a {
-    color: rgb(0, 102, 255); 
-}
+
+/* DARK MODE */
 
 .dark-mode {
     background-color: #1d1f20;
     color: #e3e1de;
 }
+
+
+/* TEXT FORMATTING */
 
 h1 {
     font-family: "Playfair Display", serif;
@@ -86,6 +87,9 @@ h1 {
     text-align: right;
     font-weight: bold;
 }
+ 
+
+/* TABLE OF CONTENT */
 
 .text .indice div div {
     text-indent: 40px;
@@ -95,10 +99,18 @@ h1 {
     text-indent: 80px;
 } 
 
+a:visited,
+a {
+    color: rgb(0, 102, 255); 
+}
+
+
+/* SPECIAL CONTENT */
 
 #recensioni p {
     text-align: center;
 }
+
 
 /* BACKTOTOP BUTTON */
 
