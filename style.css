@@ -16,6 +16,8 @@ fonts
 
 color: #e3e1de;
 color: #1d1f20;
+
+https://text-html.com/
 */
 
 
@@ -55,7 +57,9 @@ h1 {
 
 .text p,
 .text hr,
-.text div {
+.text div,
+.text strong, 
+.text em{
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -91,6 +95,14 @@ h1 {
     text-align: right;
     font-weight: bold;
 }
+
+.text strong {
+    font-weight: 600;
+}
+
+.text em {
+    font-style: italic;
+}
  
 
 /* TABLE OF CONTENT */
@@ -111,7 +123,8 @@ a {
 
 /* SPECIAL CONTENT */
 
-#recensioni p {
+#recensioni p,
+#aforismario p{
     text-align: center;
 }
 
