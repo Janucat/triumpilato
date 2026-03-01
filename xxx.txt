@@ -1,6 +1,0 @@
-<div><a href="#gionsina">Gionsina</a><br>
-        <div><a href="#gionsina-la-vita">La vita</a></div>
-        <div><a href="#gionsina-sonetto">Sonetto senza nome</a></div>
-        <div><a href="#gionsina-i-mangiatori-di-crocchette">I Mangiatori di Crocchette</a></div>
-        <div><a href="#gionsina-il-ming-ki-on">Il Ming-Ki On</a></div>
-    </div> 
