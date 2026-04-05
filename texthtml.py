@@ -17,12 +17,12 @@ for string in original:
     elif string.startswith("## "): #section
         string = string.replace('## ', '')
         index += f"\t\t<div><a href=\"#{current_title}-{idfy_string(string)}\">{string}</a></div>\n"
-        formatted += f"<p id=\"#{current_title}-{idfy_string(string)}\" class=\"section\">{string}</p>\n"
+        formatted += f"<p id=\"{current_title}-{idfy_string(string)}\" class=\"section\">{string}</p>\n"
     elif string.startswith("# "): #title
         string = string.replace('# ', '')
         current_title = idfy_string(string)
         index += f"\t<div><a href=\"#{current_title}\">{string}</a></div>\n"
-        formatted += f"<br><hr><br>\n<p id=\"#{current_title}\" class=\"title\">{string}</p>\n"
+        formatted += f"<br><hr><br>\n<p id=\"{current_title}\" class=\"title\">{string}</p>\n"
     elif string.startswith("~ "): #author
         string = string.replace('~ ', '')
         formatted += f"<p class=\"author\">{string}</p>\n"

@@ -59,7 +59,9 @@ h1 {
 .text hr,
 .text div,
 .text strong, 
-.text em{
+.text em,
+.text ol,
+.text ol li{
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
